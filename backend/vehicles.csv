@@ -1,0 +1,125 @@
+fuelType,fuelCost08,highway08U,comb08U,cylinders,displ,drive,make,year,model,trim,trany,price,phevBlended,VClass,atvType,rangeA,evMotor
+Premium,2150,30.6012,27.374,4,2,Rear-Wheel Drive,Toyota,2024,GR Supra,,Automatic (S8),"$46,440 ",FALSE,Two Seaters,,,
+Regular,1250,34.0585,36.1798,4,2.5,Front-Wheel Drive,Toyota,2024,Grand Highlander Hybrid, Hybrid,Automatic (AV-S6),"$46,065 ",FALSE,Standard Sport Utility Vehicle 2WD,Hybrid,,259V Li-Ion
+Regular,1300,32.2997,34.2965,4,2.5,Front-Wheel Drive,Toyota,2024,Grand Highlander Hybrid Limited, Hybrid Limited,Automatic (AV-S6),"$54,040 ",FALSE,Standard Sport Utility Vehicle 2WD,Hybrid,,259V Li-Ion
+Regular,1900,28.1266,24.0756,4,2.4,Front-Wheel Drive,Toyota,2024,Grand Highlander LE/XLE, LE/XLE,Automatic (S8),"$44,405 ",FALSE,Standard Sport Utility Vehicle 2WD,,,
+Regular,1900,28.2546,24.0682,4,2.4,Front-Wheel Drive,Toyota,2024,Grand Highlander Limited, Limited,Automatic (S8),"$50,875 ",FALSE,Standard Sport Utility Vehicle 2WD,,,
+Regular,1300,31.8727,33.8721,4,2.5,All-Wheel Drive,Toyota,2024,Grand Highlander Hybrid AWD, Hybrid AWD,Automatic (AV-S6),"$47,825 ",FALSE,Standard Sport Utility Vehicle 4WD,Hybrid,,259V Li-Ion
+Regular,1650,27.2921,26.7025,4,2.4,All-Wheel Drive,Toyota,2024,Grand Highlander Hybrid AWD, Hybrid AWD,Automatic (S6),"$48,825 ",FALSE,Standard Sport Utility Vehicle 4WD,Hybrid,,288V Ni-MH
+Regular,1950,27.2921,23.4053,4,2.4,All-Wheel Drive,Toyota,2024,Grand Highlander AWD LE/XLE, AWD LE/XLE,Automatic (S8),"$46,065 ",FALSE,Standard Sport Utility Vehicle 4WD,,,
+Regular,2050,26.0636,22,4,2.4,All-Wheel Drive,Toyota,2024,Grand Highlander AWD Limited/Platinum, AWD Limited/Platinum,Automatic (S8),"$52,535 ",FALSE,Standard Sport Utility Vehicle 4WD,,,
+Premium,2250,30.6012,25.8679,6,3,Rear-Wheel Drive,Toyota,2024,GR Supra,,Automatic (S8),"$46,440 ",FALSE,Two Seaters,,,
+Premium,2800,26.6469,21.4952,6,3,Rear-Wheel Drive,Toyota,2024,GR Supra,,Manual 6-spd,"$55,400 ",FALSE,Two Seaters,,,
+Regular,1750,33.0332,26.1901,6,3.5,Front-Wheel Drive,Toyota,2024,Camry,,Automatic (S8),"$26,420 ",FALSE,Midsize Cars,,,
+Regular,1800,30.9781,25.1187,6,3.5,Front-Wheel Drive,Toyota,2024,Camry TRD, TRD,Automatic (S8),"$33,965 ",FALSE,Midsize Cars,,,
+Regular,1750,31.9782,25.6327,6,3.5,Front-Wheel Drive,Toyota,2024,Camry XSE, XSE,Automatic (S8),"$32,860 ",FALSE,Midsize Cars,,,
+Regular,1550,34,28.6026,4,2.5,All-Wheel Drive,Toyota,2024,Camry AWD LE/SE, AWD LE/SE,Automatic (S8),"$28,020 ",FALSE,Midsize Cars,,,
+Regular,1600,34.4479,28,4,2.5,All-Wheel Drive,Toyota,2024,Camry AWD XLE/XSE, AWD XLE/XSE,Automatic (S8),"$34,460 ",FALSE,Midsize Cars,,,
+Regular,1400,38.6053,31.7619,4,2.5,Front-Wheel Drive,Toyota,2024,Camry LE/SE, LE/SE,Automatic (S8),"$26,420 ",FALSE,Midsize Cars,,,
+Regular,1450,38,31,4,2.5,Front-Wheel Drive,Toyota,2024,Camry XLE/XSE, XLE/XSE,Automatic (S8),"$32,160 ",FALSE,Midsize Cars,,,
+Regular,850,52.7112,51.7504,4,2.5,Front-Wheel Drive,Toyota,2024,Camry Hybrid LE, Hybrid LE,Automatic (AV-S6),"$28,870 ",FALSE,Midsize Cars,Hybrid,,259V Li-Ion
+Regular,1000,47,46.2351,4,2.5,Front-Wheel Drive,Toyota,2024,Camry Hybrid SE/XLE/XSE, Hybrid SE/XLE/XSE,Automatic (AV-S6),"$34,870 ",FALSE,Midsize Cars,Hybrid,,259V Li-Ion
+Regular,2250,23.1957,19.8582,6,3.4,Rear-Wheel Drive,Toyota,2024,Tundra 2WD, 2WD,Automatic (S10),"$38,295 ",FALSE,Standard Pickup Trucks 2WD,,,
+Regular,2250,23.4158,20.1246,6,3.4,Rear-Wheel Drive,Toyota,2024,Tundra 2WD, 2WD,Automatic (S10),"$38,295 ",FALSE,Standard Pickup Trucks 2WD,,,
+Regular,2050,24.0714,22.311,6,3.4,Rear-Wheel Drive,Toyota,2024,Tundra 2WD, 2WD,Automatic (S10),"$38,295 ",FALSE,Standard Pickup Trucks 2WD,Hybrid,,288V Ni-MH
+Regular,2350,22.5804,19.3354,6,3.4,Part-time 4-Wheel Drive,Toyota,2024,Tundra 4WD, 4WD,Automatic (S10),"$41,995 ",FALSE,Standard Pickup Trucks 4WD,,,
+Regular,2350,22.3317,19.3354,6,3.4,Part-time 4-Wheel Drive,Toyota,2024,Tundra 4WD, 4WD,Automatic (S10),"$41,995 ",FALSE,Standard Pickup Trucks 4WD,,,
+Regular,2250,22.354,20.1784,6,3.4,Part-time 4-Wheel Drive,Toyota,2024,Tundra 4WD, 4WD,Automatic (S10),"$41,995 ",FALSE,Standard Pickup Trucks 4WD,Hybrid,,288V Ni-MH
+Regular,2350,20.301,19.1281,6,3.4,Part-time 4-Wheel Drive,Toyota,2024,Tundra 4WD PRO, 4WD PRO,Automatic (S10),"$51,945 ",FALSE,Standard Pickup Trucks 4WD,Hybrid,,288V Ni-MH
+Regular,2050,24.1023,22.3571,6,3.4,Rear-Wheel Drive,Toyota,2024,Sequoia 2WD, 2WD,Automatic (S10),"$60,795 ",FALSE,Standard Sport Utility Vehicle 2WD,Hybrid,,288V Ni-MH
+Regular,2250,22.354,20.1784,6,3.4,Part-time 4-Wheel Drive,Toyota,2024,Sequoia 4WD, 4WD,Automatic (S10),"$64,395 ",FALSE,Standard Sport Utility Vehicle 4WD,Hybrid,,288V Ni-MH
+Premium,2450,28.3185,23.889,3,1.6,All-Wheel Drive,Toyota,2024,GR Corolla,GR ,Manual 6-spd,"$36,995 ",FALSE,Subcompact Cars,,,
+Regular,800,56,57,4,2,Front-Wheel Drive,Toyota,2024,Prius,,Automatic (variable gear ratios),"$28,545 ",FALSE,Midsize Cars,Hybrid,,222V Li-Ion
+Regular,850,54,54,4,2,Part-time 4-Wheel Drive,Toyota,2024,Prius AWD, AWD,Automatic (variable gear ratios),"$30,145 ",FALSE,Midsize Cars,Hybrid,,222V Li-Ion
+Regular,900,50,49,4,2,Part-time 4-Wheel Drive,Toyota,2024,Prius AWD XLE/LTD, AWD XLE/LTD,Automatic (variable gear ratios),"$34,545 ",FALSE,Midsize Cars,Hybrid,,222V Li-Ion
+Regular,850,52,52,4,2,Front-Wheel Drive,Toyota,2024,Prius XLE/LTD, XLE/LTD,Automatic (variable gear ratios),"$32,945 ",FALSE,Midsize Cars,Hybrid,,222V Li-Ion
+Regular,1250,36.3698,36.0336,4,2.5,Front-Wheel Drive,Toyota,2024,Sienna 2WD, 2WD,Automatic (AV-S6),"$38,910 ",FALSE,Minivan - 2WD,Hybrid,,259V Li-Ion
+Regular,1300,35.5871,35.0213,4,2.5,All-Wheel Drive,Toyota,2024,Sienna AWD, AWD,Automatic (AV-S6),"$40,910 ",FALSE,Minivan - 4WD,Hybrid,,259V Li-Ion
+Regular,900,46,50,4,1.8,Front-Wheel Drive,Toyota,2024,Corolla Hybrid, Hybrid,Automatic (variable gear ratios),"$23,895 ",FALSE,Compact Cars,Hybrid,,207V Li-Ion
+Regular,950,43,47,4,1.8,Front-Wheel Drive,Toyota,2024,Corolla Hybrid, Hybrid,Automatic (variable gear ratios),"$23,895 ",FALSE,Compact Cars,Hybrid,,207V Li-Ion
+Regular,950,44,48,4,1.8,All-Wheel Drive,Toyota,2024,Corolla Hybrid AWD, Hybrid AWD,Automatic (variable gear ratios),"$25,295 ",FALSE,Compact Cars,Hybrid,,207V Li-Ion
+Regular,1000,41,44,4,1.8,All-Wheel Drive,Toyota,2024,Corolla Hybrid AWD, Hybrid AWD,Automatic (variable gear ratios),"$25,295 ",FALSE,Compact Cars,Hybrid,,207V Li-Ion
+Regular,1300,41,35,4,2,Front-Wheel Drive,Toyota,2024,Corolla,,Automatic (AV-S10),"$21,625 ",FALSE,Compact Cars,,,
+Regular,1300,39.5009,34.2193,4,2,Front-Wheel Drive,Toyota,2024,Corolla,,Automatic (AV-S10),"$21,625 ",FALSE,Compact Cars,,,
+Regular,1300,41,35,4,2,Front-Wheel Drive,Toyota,2024,Corolla Hatchback, Hatchback,Automatic (AV-S10),"$23,015 ",FALSE,Compact Cars,,,
+Regular,1350,38.3105,33.1681,4,2,Front-Wheel Drive,Toyota,2024,Corolla Hatchback XSE, Hatchback XSE,Automatic (AV-S10),"$26,525 ",FALSE,Compact Cars,,,
+Regular,1100,41,41,4,2.5,All-Wheel Drive,Toyota,2024,Crown AWD, AWD,Automatic (variable gear ratios),"$41,045 ",FALSE,Midsize Cars,Hybrid,,252V Li-Ion
+Regular,1500,32.4136,30,4,2.4,All-Wheel Drive,Toyota,2024,Crown AWD, AWD,Automatic (AV-S6),"$43,045 ",FALSE,Midsize Cars,Hybrid,,288V Ni-MH
+Regular,1500,34.5865,30.2814,4,2.5,Front-Wheel Drive,Toyota,2024,RAV4,,Automatic (S8),"$28,910 ",FALSE,Small Sport Utility Vehicle 2WD,,,
+Regular,1550,33.1568,29.2767,4,2.5,All-Wheel Drive,Toyota,2024,RAV4 AWD, AWD,Automatic (S8),"$30,310 ",FALSE,Small Sport Utility Vehicle 4WD,,,
+Regular,1600,32.9713,27.8551,4,2.5,All-Wheel Drive,Toyota,2024,RAV4 AWD, AWD,Automatic (S8),"$30,310 ",FALSE,Small Sport Utility Vehicle 4WD,,,
+Regular,1600,31.7289,27.5407,4,2.5,All-Wheel Drive,Toyota,2024,RAV4 AWD TRD OFFROAD, AWD TRD OFFROAD,Automatic (S8),"$38,355 ",FALSE,Small Sport Utility Vehicle 4WD,,,
+Regular,1500,33.9525,29.8246,4,2.5,All-Wheel Drive,Toyota,2024,RAV4 AWD LE, AWD LE,Automatic (S8),"$30,310 ",FALSE,Small Sport Utility Vehicle 4WD,,,
+Regular,1200,34.6706,36.5533,4,2.5,All-Wheel Drive,Toyota,2024,RAV4 Hybrid AWD Woodland Edition, Hybrid AWD Woodland Edition,Automatic (AV-S6),"$39,055 ",FALSE,Small Sport Utility Vehicle 4WD,Hybrid,,252V Li-Ion
+Regular,1150,37.5528,39.2867,4,2.5,All-Wheel Drive,Toyota,2024,RAV4 Hybrid AWD, Hybrid AWD,Automatic (AV-S6),"$35,255 ",FALSE,Small Sport Utility Vehicle 4WD,Hybrid,,252V Li-Ion
+Regular,1150,37.0442,38.6419,4,2.5,All-Wheel Drive,Toyota,2024,Venza AWD, AWD,Automatic (AV-S6),"$34,325 ",FALSE,Small Sport Utility Vehicle 4WD,Hybrid,,252V Li-Ion
+Regular,2650,18.9536,17.4613,6,4,Rear-Wheel Drive,Toyota,2024,4Runner 2WD, 2WD,Automatic (S5),"$39,385 ",FALSE,Standard Sport Utility Vehicle 2WD,,,
+Regular,2650,18.9447,17.1221,6,4,Part-time 4-Wheel Drive,Toyota,2024,4Runner 4WD, 4WD,Automatic (S5),"$41,385 ",FALSE,Standard Sport Utility Vehicle 4WD,,,
+Regular,2650,18.6887,16.9829,6,4,All-Wheel Drive,Toyota,2024,4Runner 4WD, 4WD,Automatic (S5),"$41,385 ",FALSE,Standard Sport Utility Vehicle 4WD,,,
+Regular Gas and Electricity,950,46.8297,48,4,2,Front-Wheel Drive,Toyota,2024,Prius Prime,,Automatic (variable gear ratios),"$32,350 ",TRUE,Midsize Cars,Plug-in Hybrid,40,120 kW AC Induction
+Regular Gas and Electricity,850,51,52,4,2,Front-Wheel Drive,Toyota,2024,Prius Prime SE, SE,Automatic (variable gear ratios),"$35,470 ",TRUE,Midsize Cars,Plug-in Hybrid,45,120 kW AC Induction
+Regular Gas and Electricity,1200,36,38.4425,4,2.5,All-Wheel Drive,Toyota,2024,RAV4 Prime 4WD, 4WD,Automatic (AV-S6),"$43,625 ",TRUE,Small Sport Utility Vehicle 4WD,Plug-in Hybrid,42,40 and 134 kW AC Induction
+Premium,2650,26.4527,22.176,4,2.4,Rear-Wheel Drive,Toyota,2024,GR 86,,Manual 6-spd,"$29,495 ",FALSE,Minicompact Cars,,,
+Premium,2450,30.0593,24.2943,4,2.4,Rear-Wheel Drive,Toyota,2024,GR 86,,Automatic (S6),"$31,895 ",FALSE,Minicompact Cars,,,
+Regular,2050,24.2996,21.9782,4,2.4,Rear-Wheel Drive,Toyota,2024,Tacoma SR5/Sport/PreRunner 2WD, SR5/Sport/PreRunner 2WD,Automatic (S8),"$31,290 ",FALSE,Small Pickup Trucks 2WD,,,
+Regular,1950,25.6735,22.6597,4,2.4,Rear-Wheel Drive,Toyota,2024,Tacoma SR5/Sport/PreRunner 2WD, SR5/Sport/PreRunner 2WD,Automatic (S8),"$31,290 ",FALSE,Small Pickup Trucks 2WD,,,
+Regular,1950,25.9987,22.6275,4,2.4,Rear-Wheel Drive,Toyota,2024,Tacoma 2WD, 2WD,Automatic (S8),"$28,850 ",FALSE,Small Pickup Trucks 2WD,,,
+Regular,2250,22.6469,19.7111,4,2.4,Part-time 4-Wheel Drive,Toyota,2024,Tacoma 4WD MT, 4WD MT,Manual 6-spd,"$30,510 ",FALSE,Small Pickup Trucks 4WD,,,
+Regular,2150,22.9342,20.5924,4,2.4,Part-time 4-Wheel Drive,Toyota,2024,Tacoma SR5/Sport/Off-Road/Limited 4WD, SR5/Sport/Off-Road/Limited 4WD,Automatic (S8),"$36,085 ",FALSE,Small Pickup Trucks 4WD,,,
+Regular,2150,23.0453,21.1876,4,2.4,Part-time 4-Wheel Drive,Toyota,2024,Tacoma SR5/Sport/Off-Road/Limited 4WD, SR5/Sport/Off-Road/Limited 4WD,Automatic (S8),"$36,085 ",FALSE,Small Pickup Trucks 4WD,,,
+Regular,2150,24.431,21.0122,4,2.4,Part-time 4-Wheel Drive,Toyota,2024,Tacoma SR5/Sport/Off-Road/Limited 4WD, SR5/Sport/Off-Road/Limited 4WD,Automatic (S8),"$36,085 ",FALSE,Small Pickup Trucks 4WD,,,
+Regular,2150,24.4391,21.0149,4,2.4,Part-time 4-Wheel Drive,Toyota,2024,Tacoma 4WD, 4WD,Automatic (S8),"$32,705 ",FALSE,Small Pickup Trucks 4WD,,,
+Premium,2950,23.1957,19.8582,6,3.4,Rear-Wheel Drive,Toyota,2024,Tundra 2WD, 2WD,Automatic (S10),"$38,295 ",FALSE,Standard Pickup Trucks 2WD,,,
+Premium,2950,23.4158,20.1246,6,3.4,Rear-Wheel Drive,Toyota,2024,Tundra 2WD, 2WD,Automatic (S10),"$38,295 ",FALSE,Standard Pickup Trucks 2WD,,,
+Premium,2650,24.0714,22.311,6,3.4,Rear-Wheel Drive,Toyota,2024,Tundra 2WD, 2WD,Automatic (S10),"$38,295 ",FALSE,Standard Pickup Trucks 2WD,Hybrid,,288V Ni-MH
+Premium,3100,22.5804,19.3354,6,3.4,Part-time 4-Wheel Drive,Toyota,2024,Tundra 4WD, 4WD,Automatic (S10),"$41,995 ",FALSE,Standard Pickup Trucks 4WD,,,
+Premium,2950,22.354,20.1784,6,3.4,Part-time 4-Wheel Drive,Toyota,2024,Tundra 4WD, 4WD,Automatic (S10),"$41,995 ",FALSE,Standard Pickup Trucks 4WD,Hybrid,,288V Ni-MH
+Premium,3100,20.301,19.1281,6,3.4,Part-time 4-Wheel Drive,Toyota,2024,Tundra 4WD PRO, 4WD PRO,Automatic (S10),"$51,945 ",FALSE,Standard Pickup Trucks 4WD,Hybrid,,288V Ni-MH
+Regular,1400,32.6031,31.7443,4,2,Front-Wheel Drive,Toyota,2024,Corolla Cross,,Automatic (AV-S10),"$23,610 ",FALSE,Small Sport Utility Vehicle 2WD,,,
+Regular,1250,35.4023,35.8587,4,2.5,Front-Wheel Drive,Toyota,2024,Highlander Hybrid, Hybrid,Automatic (AV-S6),"$41,555 ",FALSE,Small Sport Utility Vehicle 2WD,Hybrid,,259V Li-Ion
+Regular,1800,29.0835,24.7345,4,2.4,Front-Wheel Drive,Toyota,2024,Highlander,,Automatic (S8),"$37,755 ",FALSE,Small Sport Utility Vehicle 2WD,,,
+Regular,1900,28.3824,23.7575,4,2.4,Front-Wheel Drive,Toyota,2024,Highlander,,Automatic (S8),"$37,755 ",FALSE,Small Sport Utility Vehicle 2WD,,,
+Regular,1500,31.1142,30,4,2,All-Wheel Drive,Toyota,2024,Corolla Cross AWD, AWD,Automatic (AV-S10),"$25,010 ",FALSE,Small Sport Utility Vehicle 4WD,,,
+Regular,1050,38,42,4,2,All-Wheel Drive,Toyota,2024,Corolla Cross Hybrid AWD, Hybrid AWD,Automatic (AV-S6),"$29,305 ",FALSE,Small Sport Utility Vehicle 4WD,Hybrid,,222V Li-Ion
+Regular,1900,27.6779,23.7303,4,2.4,All-Wheel Drive,Toyota,2024,Highlander AWD, AWD,Automatic (S8),"$39,155 ",FALSE,Small Sport Utility Vehicle 4WD,,,
+Regular,1300,34,35.0276,4,2.5,All-Wheel Drive,Toyota,2024,Highlander Hybrid AWD LTD/PLAT, Hybrid AWD LTD/PLAT,Automatic (AV-S6),"$50,355 ",FALSE,Standard Sport Utility Vehicle 4WD,Hybrid,,259V Li-Ion
+Regular,1300,34.7889,34.9824,4,2.5,All-Wheel Drive,Toyota,2024,Highlander Hybrid AWD, Hybrid AWD,Automatic (AV-S6),"$43,315 ",FALSE,Standard Sport Utility Vehicle 4WD,Hybrid,,259V Li-Ion
+Premium,2550,24.8453,23.162,4,2.4,4-Wheel Drive,Toyota,2024,Land Cruiser,,Automatic (S8),"$89,965 ",FALSE,Standard Sport Utility Vehicle 4WD,Hybrid,,288V Ni-MH
+Electricity,650,107.38,119.0276,,,Front-Wheel Drive,Toyota,2024,bZ4X,,Automatic (A1),"$42,000 ",FALSE,Small Sport Utility Vehicle 2WD,EV,,150 kW AC Synchronous
+Electricity,700,102.27,111.8341,,,Front-Wheel Drive,Toyota,2024,bZ4X Limited, Limited,Automatic (A1),"$46,700 ",FALSE,Small Sport Utility Vehicle 2WD,EV,,150 kW AC Synchronous
+Electricity,700,98.28,108.8168,,,All-Wheel Drive,Toyota,2024,bZ4X AWD, AWD,Automatic (A1),"$44,080 ",FALSE,Small Sport Utility Vehicle 4WD,EV,,80 and 80 kW AC Synchronous
+Electricity,750,96.88,106.9864,,,All-Wheel Drive,Toyota,2024,bZ4X Limited AWD, Limited AWD,Automatic (A1),"$48,780 ",FALSE,Small Sport Utility Vehicle 4WD,EV,,80 and 80 kW AC Synchronous
+Regular,1900,24.2996,23.5042,4,2.4,4-Wheel Drive,Toyota,2024,Tacoma Hybrid 4WD, Hybrid 4WD,Automatic (S8),"$42,470 ",FALSE,Standard Pickup Trucks 4WD,Hybrid,,288V Ni-MH
+Regular,1950,23.6408,22.9386,4,2.4,Part-time 4-Wheel Drive,Toyota,2024,Tacoma Hybrid 4WD, Hybrid 4WD,Automatic (S8),"$42,470 ",FALSE,Standard Pickup Trucks 4WD,Hybrid,,288V Ni-MH
+Hydrogen,0,64,65,,,Rear-Wheel Drive,Toyota,2024,Mirai Limited, Limited,Automatic (variable gear ratios),"$70,500 ",FALSE,Compact Cars,FCV,,134 kW AC Synchronous
+Hydrogen,0,71.47,74.0843,,,Rear-Wheel Drive,Toyota,2024,Mirai XLE, XLE,Automatic (variable gear ratios),"$67,000 ",FALSE,Compact Cars,FCV,,134 kW AC Synchronous
+Regular,1100,41,41,4,2.5,All-Wheel Drive,Toyota,2025,Crown AWD, AWD,Automatic (variable gear ratios),"$48,765 ",FALSE,Midsize Cars,Hybrid,,230V Ni-MH
+Regular,1500,32.4136,30,4,2.4,All-Wheel Drive,Toyota,2025,Crown AWD, AWD,Automatic (AV-S6),"$54,990 ",FALSE,Midsize Cars,Hybrid,,230V Ni-MH
+Premium,2150,30.6012,27.374,4,2,Rear-Wheel Drive,Toyota,2025,GR Supra,,Automatic (S8),"$52,500 ",FALSE,Two Seaters,,,
+Premium,2250,30.6012,25.8679,6,3,Rear-Wheel Drive,Toyota,2025,GR Supra,,Automatic (S8),"$52,500 ",FALSE,Two Seaters,,,
+Premium,2800,26.6469,21.4952,6,3,Rear-Wheel Drive,Toyota,2025,GR Supra,,Manual 6-spd,"$59,440 ",FALSE,Two Seaters,,,
+Regular,1300,41,35,4,2,Front-Wheel Drive,Toyota,2025,Corolla Hatchback, Hatchback,Automatic (AV-S10),"$23,015 ",FALSE,Compact Cars,,,
+Regular,1350,38.3105,33.1681,4,2,Front-Wheel Drive,Toyota,2025,Corolla Hatchback XSE, Hatchback XSE,Automatic (AV-S10),"$27,180 ",FALSE,Compact Cars,,,
+Regular,1000,46.4877,46.4237,4,2.5,All-Wheel Drive,Toyota,2025,Camry HEV AWD SE/XLE, HEV AWD SE/XLE,Automatic (AV-S6),"$31,000 ",FALSE,Midsize Cars,Hybrid,,252V Li-Ion
+Regular,1000,43,44,4,2.5,All-Wheel Drive,Toyota,2025,Camry HEV AWD XSE, HEV AWD XSE,Automatic (AV-S6),"$34,900 ",FALSE,Midsize Cars,Hybrid,,252V Li-Ion
+Regular,900,49.7123,51.3139,4,2.5,Front-Wheel Drive,Toyota,2025,Camry HEV FF LE, HEV FF LE,Automatic (AV-S6),"$28,700 ",FALSE,Midsize Cars,Hybrid,,252V Li-Ion
+Regular,950,46.8313,47.4059,4,2.5,Front-Wheel Drive,Toyota,2025,Camry HEV FF SE/XLE/XSE, HEV FF SE/XLE/XSE,Automatic (AV-S6),"$33,700 ",FALSE,Midsize Cars,Hybrid,,252V Li-Ion
+Regular,900,49,50.2248,4,2.5,All-Wheel Drive,Toyota,2025,Camry HEV AWD LE, HEV AWD LE,Automatic (AV-S6),"$34,900 ",FALSE,Midsize Cars,Hybrid,,252V Li-Ion
+Regular,1200,37.323,38.1736,4,2.5,All-Wheel Drive,Toyota,2025,Crown Signia AWD, AWD,Automatic (AV-S6),"$54,990 ",FALSE,Small Station Wagons,Hybrid,,230V Ni-MH
+Regular,950,43,47,4,1.8,Front-Wheel Drive,Toyota,2025,Corolla Hybrid, Hybrid,Automatic (variable gear ratios),"$23,895 ",FALSE,Compact Cars,Hybrid,,207V Li-Ion
+Regular,1000,41,44,4,1.8,All-Wheel Drive,Toyota,2025,Corolla Hybrid AWD, Hybrid AWD,Automatic (variable gear ratios),"$25,295 ",FALSE,Compact Cars,Hybrid,,207V Li-Ion
+Regular,1300,41,35,4,2,Front-Wheel Drive,Toyota,2025,Corolla,LE,Automatic (variable gear ratios),"$21,625 ",FALSE,Compact Cars,,,
+Regular,1300,39.6137,34.2793,4,2,Front-Wheel Drive,Toyota,2025,Corolla,SE,Automatic (variable gear ratios),"$21,625 ",FALSE,Compact Cars,,,
+Regular,1300,38.4889,33.6743,4,2,Front-Wheel Drive,Toyota,2025,Corolla,,Automatic (AV-S10),"$22,125 ",FALSE,Compact Cars,,,
+Regular,1300,39.1412,34.0304,4,2,Front-Wheel Drive,Toyota,2025,Corolla FX,,Automatic (variable gear ratios),"$26,650 ",FALSE,Compact Cars,,,
+Regular,2250,22.6838,19.7706,6,3.4,Rear-Wheel Drive,Toyota,2025,Tundra 2WD, 2WD,Automatic (S10),"$38,295 ",FALSE,Standard Pickup Trucks 2WD,,,
+Regular,2250,23.4345,20.1472,6,3.4,Rear-Wheel Drive,Toyota,2025,Tundra 2WD, 2WD,Automatic (S10),"$38,295 ",FALSE,Standard Pickup Trucks 2WD,,,
+Regular,2050,23.8714,21.8962,6,3.4,Rear-Wheel Drive,Toyota,2025,Tundra 2WD, 2WD,Automatic (S10),"$38,295 ",FALSE,Standard Pickup Trucks 2WD,Hybrid,,288V Ni-MH
+Regular,2350,22.336,19.3385,6,3.4,Part-time 4-Wheel Drive,Toyota,2025,Tundra 4WD, 4WD,Automatic (S10),"$41,995 ",FALSE,Standard Pickup Trucks 4WD,,,
+Regular,2350,21.78,18.9657,6,3.4,Part-time 4-Wheel Drive,Toyota,2025,Tundra 4WD, 4WD,Automatic (S10),"$41,995 ",FALSE,Standard Pickup Trucks 4WD,,,
+Regular,2250,22.3548,20.1762,6,3.4,Part-time 4-Wheel Drive,Toyota,2025,Tundra 4WD, 4WD,Automatic (S10),"$41,995 ",FALSE,Standard Pickup Trucks 4WD,Hybrid,,288V Ni-MH
+Regular,2350,20.301,19.1281,6,3.4,Part-time 4-Wheel Drive,Toyota,2025,Tundra 4WD PRO, 4WD PRO,Automatic (S10),"$51,945 ",FALSE,Standard Pickup Trucks 4WD,Hybrid,,288V Ni-MH
+Regular,2050,23.8714,21.8962,6,3.4,Rear-Wheel Drive,Toyota,2025,Sequoia 2WD, 2WD,Automatic (S10),"$60,795 ",FALSE,Standard Sport Utility Vehicle 2WD,Hybrid,,288V Ni-MH
+Regular,2250,22.3548,20.1762,6,3.4,Part-time 4-Wheel Drive,Toyota,2025,Sequoia 4WD, 4WD,Automatic (S10),"$64,395 ",FALSE,Standard Sport Utility Vehicle 4WD,Hybrid,,288V Ni-MH
+Premium,2650,27.4851,22.3352,3,1.6,All-Wheel Drive,Toyota,2025,GR Corolla,,Automatic (S8),"$46,633 ",FALSE,Subcompact Cars,,,
+Premium,2450,28.3185,23.889,3,1.6,All-Wheel Drive,Toyota,2025,GR Corolla,,Manual 6-spd,"$44,698 ",FALSE,Subcompact Cars,,,
