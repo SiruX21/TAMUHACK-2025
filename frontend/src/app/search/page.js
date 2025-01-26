@@ -61,6 +61,7 @@ function Search() {
       console.log('Response:', data);
       // Store the received data into remote session storage called 'cars'
       sessionStorage.setItem('cars', data);
+      
     } else {
       console.error('Error:', response.statusText);
     }
@@ -199,6 +200,7 @@ function Search() {
 
               {/* Submit Button */}
               <Box mt={4}>
+              <Link href="/swipe" passHref>
                 <Button
                   variant="contained"
                   color="primary"
@@ -217,6 +219,7 @@ function Search() {
                 >
                   Submit
                 </Button>
+                </Link>
               </Box>
             </Box>
           </Container>

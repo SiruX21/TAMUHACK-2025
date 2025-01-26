@@ -28,7 +28,7 @@ def generate_suggestion(suggestion):
             vehicles = file.read()
     except FileNotFoundError:
         vehicles = ""
-    combined = f"Below is information about vehicles that we have and their prices and specifications in a CSV format. Fuel Type is the type of fuel it is, fuel cost is the average cost of fuel per year, highway is the highway MPG, combined08u is the city MPG, everything else is self explanatory with rangeA being the PHEV's range in electric only mode.\n{vehicles}\n The user is looking for below for their car \n{suggestion}\n Suggest 5 cars immediately, and reply only with the CSV, with nothing else"
+    combined = f"Below is information about vehicles that we have and their prices and specifications in a CSV format. Fuel Type is the type of fuel it is, fuel cost is the average cost of fuel per year, highway is the highway MPG, combined08u is the city MPG, everything else is self explanatory with rangeA being the PHEV's range in electric only mode.\n{vehicles}\n The user is looking for below for their car \n{suggestion}\n Suggest 5 cars immediately but only reply with the model name of the five cars from the CSV and nothing else, no trim, so for example if it's a Camry Hybrid, only respond with Camry, but keep an exception if it's the Prius Prime or RAV4 Prime, respond with the full model name for those."
     return combined
 @app.route('/chat-suggestion', methods=['POST'])
 def generate():
