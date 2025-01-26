@@ -7,7 +7,11 @@ import { ThemeProvider } from '@mui/material/styles';
 import theme from './theme.js';
 
 function Search() {
-  const [selectedOptions, setSelectedOptions] = React.useState([]);
+  const [selectedOptions, setSelectedOptions] = React.useState(() => {
+    // Retrieve the initial state from session storage if available
+    const savedOptions = sessionStorage.getItem('selectedOptions');
+    return savedOptions ? JSON.parse(savedOptions) : [];
+  });
 
   const questions = [
     {
@@ -36,6 +40,11 @@ function Search() {
       setSelectedOptions(newSelectedOptions);
     }
   };
+
+  React.useEffect(() => {
+    // Save the selected options to session storage whenever it changes
+    sessionStorage.setItem('selectedOptions', JSON.stringify(selectedOptions));
+  }, [selectedOptions]);
 
   const { question, options } = questions[0];
 
