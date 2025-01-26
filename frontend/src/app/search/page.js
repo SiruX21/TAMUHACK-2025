@@ -46,6 +46,26 @@ function Search() {
     sessionStorage.setItem('selectedOptions', JSON.stringify(selectedOptions));
   }, [selectedOptions]);
 
+  const handleSubmit = async () => {
+    const inputText = selectedOptions.join(', ');
+    const response = await fetch(`http://localhost:5000/generate-suggestion?input_text=${encodeURIComponent(inputText)}`, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({ selectedOptions }),
+    });
+  
+    if (response.ok) {
+      const data = await response.text();
+      console.log('Response:', data);
+      // Store the received data into remote session storage called 'cars'
+      sessionStorage.setItem('cars', data);
+    } else {
+      console.error('Error:', response.statusText);
+    }
+  };
+
   const { question, options } = questions[0];
 
   return (
@@ -179,25 +199,24 @@ function Search() {
 
               {/* Submit Button */}
               <Box mt={4}>
-                <Link href="/swipe" passHref>
-                  <Button
-                    variant="contained"
-                    color="primary"
-                    sx={{
-                      padding: '10px 30px',
-                      fontSize: '1.25rem',
-                      fontWeight: 'bold',
-                      borderRadius: '8px',
+                <Button
+                  variant="contained"
+                  color="primary"
+                  sx={{
+                    padding: '10px 30px',
+                    fontSize: '1.25rem',
+                    fontWeight: 'bold',
+                    borderRadius: '8px',
+                    backgroundColor: selectedOptions.length === 3 ? '#d93a3a' : '#e57373',
+                    '&:hover': {
                       backgroundColor: selectedOptions.length === 3 ? '#d93a3a' : '#e57373',
-                      '&:hover': {
-                        backgroundColor: selectedOptions.length === 3 ? '#d93a3a' : '#e57373',
-                      },
-                    }}
-                    disabled={selectedOptions.length !== 3}
-                  >
-                    Submit
-                  </Button>
-                </Link>
+                    },
+                  }}
+                  disabled={selectedOptions.length !== 3}
+                  onClick={handleSubmit}
+                >
+                  Submit
+                </Button>
               </Box>
             </Box>
           </Container>
