@@ -2,4 +2,6 @@ backend/config.json
 backend/venv
 backend/__pycache__
 frontend/node_modules
-frontend/.next
+frontend/.next/
+frontend/next
+frontend\.next\
