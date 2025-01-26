@@ -1,9 +1,10 @@
 // src/app/components/Chatbot.js
 'use client';
 import React, { useState, useContext, useEffect, useRef } from 'react';
-import { Box, TextField, Button, Typography, IconButton, Paper } from '@mui/material';
+import { Box, TextField, Button, Typography, IconButton, Paper, Avatar } from '@mui/material';
 import ChatIcon from '@mui/icons-material/Chat';
 import CloseIcon from '@mui/icons-material/Close';
+import AccountCircle from '@mui/icons-material/AccountCircle';
 import { ChatbotContext } from '../context/ChatbotContext';
 
 const Chatbot = () => {
@@ -12,21 +13,27 @@ const Chatbot = () => {
   const [isOpen, setIsOpen] = useState(false);
   const chatEndRef = useRef(null);
 
+
   const handleSendMessage = async (message) => {
     if (message.trim() === '') return;
-
+  
     const newMessage = { text: message, sender: 'user' };
     setMessages([...messages, newMessage]);
-
+  
+    const storedCar = sessionStorage.getItem('currentCar');
+    const carInfo = storedCar ? `This is the current car being looked at: ${storedCar}` : 'No vehicle';
+  
+    console.log('Current car info:', carInfo); // Log the car info
+  
     try {
-      const response = await fetch(`http://localhost:5000/chat-suggestion?input_text=${encodeURIComponent(message)}`, {
+      const response = await fetch(`http://localhost:5000/chat-suggestion?input_text=${encodeURIComponent(message + ' ' + carInfo)}`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
         },
         body: JSON.stringify({ input: message }),
       });
-
+  
       if (response.ok) {
         const data = await response.text();
         setMessages((prevMessages) => [...prevMessages, newMessage, { text: data, sender: 'bot' }]);
@@ -37,7 +44,6 @@ const Chatbot = () => {
       console.error('Error:', error);
     }
   };
-
   useEffect(() => {
     const clearChat = async () => {
       try {
@@ -122,6 +128,13 @@ const Chatbot = () => {
                   mb: 1,
                 }}
               >
+                {message.sender === 'bot' && (
+                  <Avatar
+                    alt="Ms. Yota"
+                    src="/chatbotpfp.png" // Replace with the path to your bot's avatar image
+                    sx={{ width: 32, height: 32, mr: 1 }}
+                  />
+                )}
                 <Box
                   sx={{
                     maxWidth: '80%',
@@ -133,6 +146,14 @@ const Chatbot = () => {
                 >
                   {message.text}
                 </Box>
+                {message.sender === 'user' && (
+                  <Avatar
+                    alt="User"
+                    sx={{ width: 32, height: 32, ml: 1 }}
+                  >
+                    <AccountCircle />
+                  </Avatar>
+                )}
               </Box>
             ))}
             <div ref={chatEndRef} />

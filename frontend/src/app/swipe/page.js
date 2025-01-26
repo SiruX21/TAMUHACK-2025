@@ -6,15 +6,14 @@ import { ThemeProvider } from '@mui/material/styles';
 import { ArrowBack, ArrowForward, Close, Check, SaveAlt, Share, ContactMail } from '@mui/icons-material';
 import theme from './theme.js';
 import Link from 'next/link';
-import Image from 'next/image'; // Import the Image component from Next.js
-
+import Image from 'next/image'; // Import the Image component from Next.j
 
 function SwipePage() {
   const [swipeIndex, setSwipeIndex] = React.useState(0);
   const [openDialog, setOpenDialog] = React.useState(false);
   const [sortedItems, setSortedItems] = React.useState([]);
   const [savedCars, setSavedCars] = React.useState([]);
-
+  const [currentCar, setCurrentCar] = React.useState({});
   const items = [
     {
       name: '2025 4Runner',
@@ -211,8 +210,19 @@ function SwipePage() {
     } else if (direction === 'left' && swipeIndex > 0) {
       setSwipeIndex(swipeIndex - 1);
     }
+  
+    const newSwipeIndex = direction === 'right' ? swipeIndex + 1 : swipeIndex - 1;
+    const carInfo = formatCarInfo(sortedItems[newSwipeIndex]);
+    console.log('New swipe index:', newSwipeIndex);
+    console.log('Car info to be set:', carInfo);
+  
+    setCurrentCar(carInfo);
+    sessionStorage.setItem('currentCar', carInfo);
+    console.log('Current car saved to sessionStorage:', carInfo);
   };
-
+  const formatCarInfo = (car) => {
+    return car.name;
+  };
   const handleSaveCar = () => {
     const carToSave = sortedItems[swipeIndex];
     setSavedCars([...savedCars, carToSave]);

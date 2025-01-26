@@ -1,0 +1,4 @@
+User: what car is this? This is the current car being looked at: 2025 Crown
+AI: The 2025 Toyota Crown is a unique blend of sedan and SUV, offering a stylish, elevated driving experience.  It comes with standard all-wheel drive and two hybrid powertrain options: a 2.5L four-cylinder or a more powerful turbocharged 2.4L four-cylinder.  The Crown boasts a spacious interior with advanced technology features.  Starting prices range from $48,765 to $54,990 depending on the chosen trim and powertrain. Its fuel efficiency is impressive, with combined ratings reaching up to 41 mpg.
+
+
