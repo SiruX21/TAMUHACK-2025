@@ -8,12 +8,24 @@ import theme from './theme.js';
 
 function Home() {
   const [zipCode, setZipCode] = React.useState('');
+  const [isMounted, setIsMounted] = React.useState(false);
 
   // Handle zip code input change
   const handleZipCodeChange = (event) => {
     setZipCode(event.target.value);
   };
 
+  // Check if the zip code is valid (non-empty)
+  const isZipCodeValid = zipCode.trim() !== '';
+
+    // Ensure the component is mounted before rendering client-specific logic
+    React.useEffect(() => {
+      setIsMounted(true);
+    }, []);
+  
+    if (!isMounted) {
+      return null; // Render nothing on the server
+    }  
 
   return (
     <React.StrictMode>
@@ -24,11 +36,13 @@ function Home() {
           <link rel="icon" href="favicon.ico" />
         </Head>
 
-        {/* Background */}
+        {/* Background with background image */}
         <Box
           sx={{
             display: 'flex',
-            backgroundColor: '#f5f5f5',
+            backgroundImage: 'url("/background.png")', // Add background image
+            backgroundSize: 'cover', // Make sure the image covers the entire page
+            backgroundPosition: 'center', // Center the image
             height: '100vh',
             width: '100vw',
             position: 'fixed',
@@ -106,6 +120,7 @@ function Home() {
                         backgroundColor: '#d93a3a',
                       },
                     }}
+                    disabled={!isZipCodeValid} // Disable button if zip code is not valid
                   >
                     Start
                   </Button>

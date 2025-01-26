@@ -48,11 +48,13 @@ function Search() {
           <link rel="icon" href="favicon.ico" />
         </Head>
 
-        {/* Background */}
+        {/* Background with background image */}
         <Box
           sx={{
             display: 'flex',
-            backgroundColor: '#f5f5f5', // Keeping the original background color
+            backgroundImage: 'url("/background.png")', // Add background image
+            backgroundSize: 'cover', // Make sure the image covers the entire page
+            backgroundPosition: 'center', // Center the image
             height: '100vh',
             width: '100vw',
             position: 'fixed',

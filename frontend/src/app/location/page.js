@@ -1,5 +1,6 @@
 'use client';
 import * as React from 'react';
+import { useSearchParams } from 'next/navigation'; // Import useSearchParams from next/navigation
 import Head from 'next/head';
 import { Container, Typography, AppBar, Toolbar, Box, Button, IconButton } from '@mui/material';
 import { ThemeProvider } from '@mui/material/styles';
@@ -29,6 +30,9 @@ const chunkLocations = (locations, size) => {
 };
 
 function Location() {
+  const searchParams = useSearchParams();
+  const zip = searchParams.get('zip'); // Extract the zip code from the URL query parameters
+
   const [currentLocationSet, setCurrentLocationSet] = React.useState(0);
   const locationChunks = chunkLocations(locations, 3); // Divide locations into chunks of 3
 
@@ -53,11 +57,13 @@ function Location() {
           <link rel="icon" href="favicon.ico" />
         </Head>
 
-        {/* Background */}
+        {/* Background with background image */}
         <Box
           sx={{
             display: 'flex',
-            backgroundColor: '#f5f5f5',
+            backgroundImage: 'url("/background.png")', // Add background image
+            backgroundSize: 'cover', // Make sure the image covers the entire page
+            backgroundPosition: 'center', // Center the image
             height: '100vh',
             width: '100vw',
             position: 'fixed',
@@ -71,7 +77,6 @@ function Location() {
             <Link href="/" passHref>
               {/* Wrap the logo and text in a Link */}
               <Box
-                component="a"
                 sx={{
                   display: 'flex',
                   alignItems: 'center',
@@ -139,7 +144,7 @@ function Location() {
                   textDecoration: 'none', // Removed underline
                 }}
               >
-                Locations near [Zip Code]
+                Locations near {zip}
               </Typography>
 
               {/* Show the current set of locations */}

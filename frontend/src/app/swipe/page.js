@@ -1,11 +1,12 @@
 'use client';
 import * as React from 'react';
 import Head from 'next/head';
-import { Container, Typography, AppBar, Toolbar, Box, IconButton, Card, CardContent, Button, Dialog, DialogActions, DialogContent, DialogTitle } from '@mui/material';
+import { Container, Typography, AppBar, Toolbar, Box, IconButton, Card, CardContent, Button, Dialog, DialogActions, DialogContent } from '@mui/material';
 import { ThemeProvider } from '@mui/material/styles';
 import { ArrowBack, ArrowForward, Close, Check, SaveAlt, Share, ContactMail } from '@mui/icons-material';
 import theme from './theme.js';
 import Link from 'next/link';
+import Image from 'next/image'; // Import the Image component from Next.js
 
 function SwipePage() {
   const [swipeIndex, setSwipeIndex] = React.useState(0);
@@ -13,34 +14,40 @@ function SwipePage() {
 
   const items = [
     {
-      name: 'Luxury Sofa',
-      msrp: '$1,299',
-      mpg: 'N/A',
+      name: '2025 4Runner',
+      msrp: '$40,770',
+      mpg: '20/26',
+      image: '/toyotapics/4Runner.jpg', // Example image URL
     },
     {
-      name: 'Electric Car',
-      msrp: '$35,000',
-      mpg: '120 MPG-e',
+      name: '2025 Camry',
+      msrp: '$28,700',
+      mpg: '53/50',
+      image: '/toyotapics/Camry.jpg', // Example image URL
     },
     {
-      name: 'Hybrid SUV',
-      msrp: '$40,000',
-      mpg: '30 MPG',
+      name: '2024 RAV4',
+      msrp: '$28,675',
+      mpg: '27/35',
+      image: '/toyotapics/Rav4.jpg', // Example image URL
     },
     {
-      name: 'Smart Refrigerator',
-      msrp: '$2,499',
-      mpg: 'N/A',
+      name: '2025 Sienna',
+      msrp: '$39,185',
+      mpg: '36/36',
+      image: '/toyotapics/Sienna.jpg', // Example image URL
     },
     {
-      name: 'Sleek Lamp',
-      msrp: '$159',
-      mpg: 'N/A',
+      name: '2025 Corolla',
+      msrp: '$22,325',
+      mpg: '32/41',
+      image: '/toyotapics/Corolla.jpg', // Example image URL
     },
     {
-      name: 'Cooking Range',
-      msrp: '$1,799',
-      mpg: 'N/A',
+      name: '2024 Venza',
+      msrp: '$37,070',
+      mpg: '40/37',
+      image: '/toyotapics/Venza.jpg', // Example image URL
     },
   ];
 
@@ -52,7 +59,7 @@ function SwipePage() {
     }
   };
 
-  const { name, msrp, mpg } = items[swipeIndex];
+  const { name, msrp, mpg, image } = items[swipeIndex];
 
   const handleCardClick = () => {
     setOpenDialog(true);
@@ -71,11 +78,13 @@ function SwipePage() {
           <link rel="icon" href="favicon.ico" />
         </Head>
 
-        {/* Background */}
+        {/* Background with background image */}
         <Box
           sx={{
             display: 'flex',
-            backgroundColor: '#f5f5f5', // Light grey background
+            backgroundImage: 'url("/background.png")', // Add background image
+            backgroundSize: 'cover', // Make sure the image covers the entire page
+            backgroundPosition: 'center', // Center the image
             height: '100vh',
             width: '100vw',
             position: 'fixed',
@@ -88,7 +97,6 @@ function SwipePage() {
           <Toolbar>
             <Link href="/" passHref>
               <Box
-                component="a"
                 sx={{
                   display: 'flex',
                   alignItems: 'center',
@@ -152,7 +160,7 @@ function SwipePage() {
               <Card
                 sx={{
                   width: '100%',
-                  height: '500px',
+                  height: '300px',
                   maxWidth: 2000,
                   marginBottom: 4,
                   padding: 2,
@@ -184,10 +192,10 @@ function SwipePage() {
                       {name}
                     </Typography>
                     <Typography variant="h5" color="black" mb={1}>
-                      MSRP: <span style={{ fontWeight: 'normal' }}>{msrp}</span>
+                      Starting MSRP: <span style={{ fontWeight: 'normal' }}>{msrp}</span>
                     </Typography>
                     <Typography variant="h5" color="black" mb={4}>
-                      Miles Per Gallon: <span style={{ fontWeight: 'normal' }}>{mpg}</span>
+                      Est. MPG: <span style={{ fontWeight: 'normal' }}>{mpg}</span>
                     </Typography>
 
                     <Box sx={{ display: 'flex', gap: 2 }}>
@@ -197,7 +205,7 @@ function SwipePage() {
                           color: '#fff',
                           textTransform: 'none',
                           backgroundColor: '#5cb85c', // Green for save
-                          fontSize: '1rem',
+                          fontSize: 'rem',
                           padding: '8px 15px',
                         }}
                       >
@@ -230,7 +238,18 @@ function SwipePage() {
                     </Box>
                   </CardContent>
                 </Box>
-                <Box sx={{ flex: 0.5, height: '300px', backgroundColor: '#cccccc', borderRadius: '8px' }} /> {/* Placeholder Image Box */}
+                <Box
+                  component="img"
+                  src={image}
+                  alt={name}
+                  sx={{
+                    flex: 0.5,
+                    height: '225px',
+                    width: '400px',
+                    borderRadius: '8px',
+                    objectFit: 'cover', // Ensures the image covers the space without distortion
+                  }}
+                />
               </Card>
 
               {/* Right Arrow */}
@@ -301,13 +320,52 @@ function SwipePage() {
             },
           }}
         >
-          <DialogTitle sx={{ color: 'black' }}>{name}</DialogTitle>
-          <DialogContent>
-            <Typography variant="h6" mb={2} sx={{ color: 'black' }}>MSRP: {msrp}</Typography>
-            <Typography variant="h6" mb={2} sx={{ color: 'black' }}>Miles Per Gallon: {mpg}</Typography>
-            <Box sx={{ height: 200, backgroundColor: '#cccccc', marginBottom: 2 }} /> {/* Placeholder Image Box */}
-            <Typography variant="body1" sx={{ color: 'black' }}>Additional details about the product...</Typography>
+          <DialogContent sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+            {/* Image at the top */}
+            <Box sx={{ width: '100%', display: 'flex', justifyContent: 'center' }}>
+              <Image
+                src={image}  // Dynamically load the image
+                alt={name}
+                width={800}
+                height={300}
+                style={{
+                  objectFit: 'cover',
+                  borderRadius: '8px',
+                }}
+              />
+            </Box>
+
+            {/* Name emphasized below the image */}
+            <Typography
+              variant="h4"
+              sx={{
+                fontWeight: 'bold',
+                marginTop: 2,
+                marginBottom: 1,
+                textAlign: 'center',
+                color: '#333', // Dark color for better contrast
+              }}
+            >
+              {name}
+            </Typography>
+
+            {/* MSRP and MPG beside each other */}
+            <Box sx={{ display: 'flex', justifyContent: 'center', gap: 4, marginBottom: 2 }}>
+              <Typography variant="h6" sx={{ color: '#555' }}>
+                MSRP: <span style={{ fontWeight: 'normal' }}>{msrp}</span>
+              </Typography>
+              <Typography variant="h6" sx={{ color: '#555' }}>
+                MPG: <span style={{ fontWeight: 'normal' }}>{mpg}</span>
+              </Typography>
+            </Box>
+
+            {/* Additional Details */}
+            <Typography variant="body1" sx={{ color: 'black' }}>
+              Additional details about the product...
+            </Typography>
           </DialogContent>
+
+          {/* Dialog Actions */}
           <DialogActions>
             <Button onClick={handleDialogClose} color="primary">
               Close
